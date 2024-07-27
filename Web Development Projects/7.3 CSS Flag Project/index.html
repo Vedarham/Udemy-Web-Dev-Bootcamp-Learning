@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .Flag{
+      border: px solid black;
+    }
+    .Sacrifice{
+      position:relative ;
+      height: 60px;
+      background-color: orangered;
+    }
+    .Sacrifice p{
+      font-weight: 700;
+      font-size: 2rem;
+      position: relative;
+      top: 20%;
+      left: 40%;
+    }
+    .Peace{
+      height: 60px;
+      background-color: white;
+    }
+    .Peace a{
+      position: relative;
+      top: 20%;
+      font-weight: 700;
+      left: 10%;
+      z-index: +3;
+    }
+    .Chakra{
+      border: 1px solid darkblue;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: relative;
+      top:0px;
+      left: 45%;
+    }
+    .Chakra .line{
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+    }
+    .line:nth-child(1) {
+    transform: rotate(15deg)
+}
+ 
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+    .Chivalry{
+      height: 60px;
+      background-color: green;
+    }
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="Flag">
+    <div class="Sacrifice">
+      <p>The Flag</p>
+    </div>
+    <div class="Peace">
+        <div class="Chakra">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <a>
+            Of Bharat
+          </a>
+        </div>
+    </div>
+    <div class="Chivalry"></div>
+  </div>
+</body>
+</html>

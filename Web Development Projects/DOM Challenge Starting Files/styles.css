@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+.invisible{
+  visibility: hidden;
+}
+.hi{
+  font-size: 10rem;
+  color:blue;
+  font-weight: bold;
+}
